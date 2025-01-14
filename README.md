@@ -38,6 +38,9 @@ The application will start on port 8081. You can access the RESTful endpoints to
 ## Project Structure
 
 - `src/main/java/com/edudanntas/clean_arch/core/entities`: Contains the core entities of the application.
+- `src/main/java/com/edudanntas/clean_arch/core/exceptions`: Contains custom exception classes.
+- `src/main/java/com/edudanntas/clean_arch/core/gateways`: Contains gateway interfaces for interacting with external systems.
+- `src/main/java/com/edudanntas/clean_arch/core/usecases`: Contains the use case interfaces and implementations.
 - `src/main/resources`: Contains the configuration files.
 
 ## Dependencies
